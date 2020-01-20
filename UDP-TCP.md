@@ -192,7 +192,7 @@ print(result)
     Content-Length: 2364
     Connection: keep-alive
     X-Frame-Options: SAMEORIGIN
-    
+    ```html
     <head>
         <title>My Django Project</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -216,6 +216,7 @@ print(result)
             <p>There you will see
                 <b>Printing Hello from Celery</b>, which is printed from celery method.</p>
             <p>
+            ```
     
 
 Urlib
@@ -263,6 +264,7 @@ print(response.text)
 ```
 
     200
+    ```html
     <head>
         <title>My Django Project</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -304,6 +306,7 @@ print(response.text)
     <footer>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </footer>
+    ```
     
 
 ***
@@ -324,6 +327,7 @@ print(BeautifulSoup(response.text))
 ```
 
     403
+    ```html
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -357,7 +361,7 @@ print(BeautifulSoup(response.text))
     </div>
     </body>
     </html>
-    
+    ```
     
 
 
@@ -372,413 +376,6 @@ for i in tqdm_notebook(range(100), desc="hello"):
     for i in tqdm_notebook(range(10), desc="world", leave=False):
         sleep(0.1)
 ```
-
-
-    HBox(children=(IntProgress(value=0, description='hello', style=ProgressStyle(description_width='initial')), HT…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-
-    HBox(children=(IntProgress(value=0, description='world', max=10, style=ProgressStyle(description_width='initia…
-
-
-    
-    
 
 
 ```python
