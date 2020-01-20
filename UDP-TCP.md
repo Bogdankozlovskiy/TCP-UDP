@@ -184,7 +184,7 @@ result = client.recv(1024)
 result = result.decode()
 print(result)
 ```
-
+```html
     HTTP/1.1 200 OK
     Server: nginx/1.17.6
     Date: Sun, 19 Jan 2020 11:16:26 GMT
@@ -192,7 +192,6 @@ print(result)
     Content-Length: 2364
     Connection: keep-alive
     X-Frame-Options: SAMEORIGIN
-    ```html
     <head>
         <title>My Django Project</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -216,7 +215,7 @@ print(result)
             <p>There you will see
                 <b>Printing Hello from Celery</b>, which is printed from celery method.</p>
             <p>
-            ```
+```
     
 
 Urlib
@@ -264,7 +263,7 @@ print(response.text)
 ```
 
     200
-    ```html
+```html
     <head>
         <title>My Django Project</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -306,7 +305,7 @@ print(response.text)
     <footer>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </footer>
-    ```
+```
     
 
 ***
@@ -327,7 +326,7 @@ print(BeautifulSoup(response.text))
 ```
 
     403
-    ```html
+```html
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -361,7 +360,7 @@ print(BeautifulSoup(response.text))
     </div>
     </body>
     </html>
-    ```
+```
     
 
 
